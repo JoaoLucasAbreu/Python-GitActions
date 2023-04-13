@@ -9,7 +9,7 @@ jobs:
       max-parallel: 5
 
     steps: 
-    - uses: actiions/checkout@v3
+    - uses: actions/checkout@v3
     - name: Set ip Python
       uses: actions/setup-python@3v
       with: 
